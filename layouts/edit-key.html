@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="144x144"
+      href="../img/icon-144x144.png" />
+
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/common.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../styles/edit-key.css" />
+
+    <title>Edit Key</title>
+  </head>
+  <body>
+    <div class="header col-8">Add new text</div>
+    <div class="textarea_cont col-8">
+      <textarea
+        name="newText"
+        cols="30"
+        rows="10"
+        placeholder="Enter new text here"
+        class="textarea form-control"></textarea>
+    </div>
+
+    <button type="button" class="btn btn-primary btn-lg add-button">
+      Add new text
+    </button>
+
+    <div class="header col-8">All the texts</div>
+    <button type="button" class="btn btn-primary btn-lg show-button">
+      Show all texts
+    </button>
+    <div class="all-texts"></div>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../frontScripts/edit-key.js"></script>
+  </body>
+</html>

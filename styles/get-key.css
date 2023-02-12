@@ -1,0 +1,9 @@
+.input_cont {
+  margin: 30px auto;
+}
+
+.gen-button,
+.card {
+  display: block;
+  margin: 30px auto;
+}

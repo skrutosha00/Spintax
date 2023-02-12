@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="144x144"
+      href="../img/icon-144x144.png" />
+
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/common.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../styles/get-key.css" />
+
+    <title>Get Key</title>
+  </head>
+  <body>
+    <div class="header col-8">Get text</div>
+
+    <div class="input_cont col-8">
+      <input
+        class="form-control input-id"
+        type="text"
+        placeholder="ID"
+        aria-label="default input example" />
+    </div>
+
+    <div class="input_cont col-8">
+      <input
+        class="form-control input-name"
+        type="text"
+        placeholder="Name Surname"
+        aria-label="default input example" />
+    </div>
+
+    <div class="input_cont col-8">
+      <input
+        class="form-control input-url"
+        type="text"
+        placeholder="URL"
+        aria-label="default input example" />
+    </div>
+
+    <div class="input_cont col-8">
+      <input
+        class="form-control input-lang"
+        type="text"
+        placeholder="Language (default EN)" />
+    </div>
+
+    <button type="button" class="btn btn-primary btn-lg gen-button">
+      Generate text
+    </button>
+
+    <div class="card border-dark col-8 none">
+      <div class="card-header">Here you will get randomly chosen file name</div>
+      <div class="card-body text-dark">
+        <h5 class="card-title">
+          If the fields above is empty, default values will be used
+        </h5>
+        <p class="card-text">Generated spintax will be added here</p>
+      </div>
+    </div>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../frontScripts/get-key.js"></script>
+  </body>
+</html>
